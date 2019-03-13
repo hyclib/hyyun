@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454C31CB19AB89F000B6B3E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454C31CA19AB89F000B6B3E8 /* Foundation.framework */; };
+		45DBA0D019B83FD200FE2E66 /* dllmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45DBA03719B83FD200FE2E66 /* dllmain.cpp */; };
+		45DBA0D119B83FD200FE2E66 /* handshakeProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45DBA03B19B83FD200FE2E66 /* handshakeProcessor.cpp */; };
+		45DBA0D219B83FD200FE2E66 /* infoProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45DBA03D19B83FD200FE2E66 /* infoProcessor.cpp */; };
+		45DBA0D319B83FD200FE2E66 /* processorBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45DBA03F19B83FD200FE2E66 /* processorBase.cpp */; };
+		45DBA0D419B83FD200FE2E66 /* yunClientJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45DBA04119B83FD200FE2E66 /* yunClientJson.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		454C31C519AB89F000B6B3E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		454C31C719AB89F000B6B3E8 /* libhyyun_c_json.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhyyun_c_json.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		454C31CA19AB89F000B6B3E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45511A2A1A63B492001EAAAF /* libhyc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyc.a; path = "../../../../hy_bin/latest/libs/ios/Debug-iphonesimulator/libhyc.a"; sourceTree = "<group>"; };
+		45511A2B1A63B492001EAAAF /* libhyyun_c.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyyun_c.a; path = "../../../../hy_bin/latest/libs/ios/Debug-iphonesimulator/libhyyun_c.a"; sourceTree = "<group>"; };
+		45DBA00619B83FD200FE2E66 /* yunClientObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunClientObject.h; sourceTree = "<group>"; };
+		45DBA00719B83FD200FE2E66 /* yun_cPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yun_cPlatform.h; sourceTree = "<group>"; };
+		45DBA00819B83FD200FE2E66 /* yunClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunClient.h; sourceTree = "<group>"; };
+		45DBA00A19B83FD200FE2E66 /* yunStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunStatistics.h; sourceTree = "<group>"; };
+		45DBA00B19B83FD200FE2E66 /* hyyun_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hyyun_c.h; sourceTree = "<group>"; };
+		45DBA00D19B83FD200FE2E66 /* yun_cJsonPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yun_cJsonPlatform.h; sourceTree = "<group>"; };
+		45DBA00E19B83FD200FE2E66 /* yunClientJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunClientJson.h; sourceTree = "<group>"; };
+		45DBA00F19B83FD200FE2E66 /* hyyun_c_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hyyun_c_json.h; sourceTree = "<group>"; };
+		45DBA02919B83FD200FE2E66 /* yunstreamanalyser_json_ctx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = yunstreamanalyser_json_ctx.hpp; sourceTree = "<group>"; };
+		45DBA03719B83FD200FE2E66 /* dllmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dllmain.cpp; sourceTree = "<group>"; };
+		45DBA03819B83FD200FE2E66 /* messageThread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = messageThread.hpp; sourceTree = "<group>"; };
+		45DBA03919B83FD200FE2E66 /* preheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = preheader.h; sourceTree = "<group>"; };
+		45DBA03B19B83FD200FE2E66 /* handshakeProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = handshakeProcessor.cpp; sourceTree = "<group>"; };
+		45DBA03C19B83FD200FE2E66 /* handshakeProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handshakeProcessor.h; sourceTree = "<group>"; };
+		45DBA03D19B83FD200FE2E66 /* infoProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = infoProcessor.cpp; sourceTree = "<group>"; };
+		45DBA03E19B83FD200FE2E66 /* infoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoProcessor.h; sourceTree = "<group>"; };
+		45DBA03F19B83FD200FE2E66 /* processorBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = processorBase.cpp; sourceTree = "<group>"; };
+		45DBA04019B83FD200FE2E66 /* processorBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = processorBase.h; sourceTree = "<group>"; };
+		45DBA04119B83FD200FE2E66 /* yunClientJson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yunClientJson.cpp; sourceTree = "<group>"; };
+		45DBA10A19B843E500FE2E66 /* libhyc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyc.a; path = "../bin/Debug-iphoneos/libhyc.a"; sourceTree = "<group>"; };
+		45DBA10B19B843E500FE2E66 /* libhyyun_c.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyyun_c.a; path = "../bin/Debug-iphoneos/libhyyun_c.a"; sourceTree = "<group>"; };
+		45DBA12B19B8581500FE2E66 /* libhyc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyc.a; path = "../../../../hy_bin/latest/libs/ios/Debug-iphoneos/libhyc.a"; sourceTree = "<group>"; };
+		45DBA12C19B8581500FE2E66 /* libhyyun_c.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyyun_c.a; path = "../../../../hy_bin/latest/libs/ios/Debug-iphoneos/libhyyun_c.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454C31C419AB89F000B6B3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454C31CB19AB89F000B6B3E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454C31BE19AB89F000B6B3E8 = {
+			isa = PBXGroup;
+			children = (
+				454C31F019AB8A3800B6B3E8 /* Classes */,
+				454C31C919AB89F000B6B3E8 /* Frameworks */,
+				454C31C819AB89F000B6B3E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		454C31C819AB89F000B6B3E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454C31C719AB89F000B6B3E8 /* libhyyun_c_json.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454C31C919AB89F000B6B3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45511A2A1A63B492001EAAAF /* libhyc.a */,
+				45511A2B1A63B492001EAAAF /* libhyyun_c.a */,
+				45DBA12B19B8581500FE2E66 /* libhyc.a */,
+				45DBA12C19B8581500FE2E66 /* libhyyun_c.a */,
+				45DBA10A19B843E500FE2E66 /* libhyc.a */,
+				45DBA10B19B843E500FE2E66 /* libhyyun_c.a */,
+				454C31CA19AB89F000B6B3E8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		454C31F019AB8A3800B6B3E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA00319B83FD200FE2E66 /* include */,
+				45DBA02A19B83FD200FE2E66 /* source */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		45DBA00319B83FD200FE2E66 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA00419B83FD200FE2E66 /* hyyun_c */,
+				45DBA00B19B83FD200FE2E66 /* hyyun_c.h */,
+				45DBA00C19B83FD200FE2E66 /* hyyun_c_json */,
+				45DBA00F19B83FD200FE2E66 /* hyyun_c_json.h */,
+				45DBA02919B83FD200FE2E66 /* yunstreamanalyser_json_ctx.hpp */,
+			);
+			name = include;
+			path = ../include;
+			sourceTree = "<group>";
+		};
+		45DBA00419B83FD200FE2E66 /* hyyun_c */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA00519B83FD200FE2E66 /* reflex */,
+				45DBA00719B83FD200FE2E66 /* yun_cPlatform.h */,
+				45DBA00819B83FD200FE2E66 /* yunClient.h */,
+				45DBA00A19B83FD200FE2E66 /* yunStatistics.h */,
+			);
+			path = hyyun_c;
+			sourceTree = "<group>";
+		};
+		45DBA00519B83FD200FE2E66 /* reflex */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA00619B83FD200FE2E66 /* yunClientObject.h */,
+			);
+			path = reflex;
+			sourceTree = "<group>";
+		};
+		45DBA00C19B83FD200FE2E66 /* hyyun_c_json */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA00D19B83FD200FE2E66 /* yun_cJsonPlatform.h */,
+				45DBA00E19B83FD200FE2E66 /* yunClientJson.h */,
+			);
+			path = hyyun_c_json;
+			sourceTree = "<group>";
+		};
+		45DBA02A19B83FD200FE2E66 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA03619B83FD200FE2E66 /* hyyun_c_json */,
+			);
+			name = source;
+			path = ../source;
+			sourceTree = "<group>";
+		};
+		45DBA03619B83FD200FE2E66 /* hyyun_c_json */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA03719B83FD200FE2E66 /* dllmain.cpp */,
+				45DBA03819B83FD200FE2E66 /* messageThread.hpp */,
+				45DBA03919B83FD200FE2E66 /* preheader.h */,
+				45DBA03A19B83FD200FE2E66 /* static_objs */,
+				45DBA04119B83FD200FE2E66 /* yunClientJson.cpp */,
+			);
+			path = hyyun_c_json;
+			sourceTree = "<group>";
+		};
+		45DBA03A19B83FD200FE2E66 /* static_objs */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA03B19B83FD200FE2E66 /* handshakeProcessor.cpp */,
+				45DBA03C19B83FD200FE2E66 /* handshakeProcessor.h */,
+				45DBA03D19B83FD200FE2E66 /* infoProcessor.cpp */,
+				45DBA03E19B83FD200FE2E66 /* infoProcessor.h */,
+				45DBA03F19B83FD200FE2E66 /* processorBase.cpp */,
+				45DBA04019B83FD200FE2E66 /* processorBase.h */,
+			);
+			path = static_objs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		454C31C619AB89F000B6B3E8 /* hyyun_c_json */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454C31EA19AB89F100B6B3E8 /* Build configuration list for PBXNativeTarget "hyyun_c_json" */;
+			buildPhases = (
+				454C31C319AB89F000B6B3E8 /* Sources */,
+				454C31C419AB89F000B6B3E8 /* Frameworks */,
+				454C31C519AB89F000B6B3E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hyyun_c_json;
+			productName = hyyun_c_json;
+			productReference = 454C31C719AB89F000B6B3E8 /* libhyyun_c_json.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454C31BF19AB89F000B6B3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = citong;
+			};
+			buildConfigurationList = 454C31C219AB89F000B6B3E8 /* Build configuration list for PBXProject "hyyun_c_json" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 454C31BE19AB89F000B6B3E8;
+			productRefGroup = 454C31C819AB89F000B6B3E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				454C31C619AB89F000B6B3E8 /* hyyun_c_json */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454C31C319AB89F000B6B3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DBA0D419B83FD200FE2E66 /* yunClientJson.cpp in Sources */,
+				45DBA0D019B83FD200FE2E66 /* dllmain.cpp in Sources */,
+				45DBA0D219B83FD200FE2E66 /* infoProcessor.cpp in Sources */,
+				45DBA0D119B83FD200FE2E66 /* handshakeProcessor.cpp in Sources */,
+				45DBA0D319B83FD200FE2E66 /* processorBase.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		454C31E819AB89F100B6B3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "../../../../hy_bin/latest/libs/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "$(PROJECT_DIR)/../bin";
+				USER_HEADER_SEARCH_PATHS = "../../../../hy_bin/latest/include ../ext";
+			};
+			name = Debug;
+		};
+		454C31E919AB89F100B6B3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "../../../../hy_bin/latest/libs/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "$(PROJECT_DIR)/../bin";
+				USER_HEADER_SEARCH_PATHS = "../../../../hy_bin/latest/include ../ext";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		454C31EB19AB89F100B6B3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/hyyun_c_json.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		454C31EC19AB89F100B6B3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/hyyun_c_json.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454C31C219AB89F000B6B3E8 /* Build configuration list for PBXProject "hyyun_c_json" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454C31E819AB89F100B6B3E8 /* Debug */,
+				454C31E919AB89F100B6B3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454C31EA19AB89F100B6B3E8 /* Build configuration list for PBXNativeTarget "hyyun_c_json" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454C31EB19AB89F100B6B3E8 /* Debug */,
+				454C31EC19AB89F100B6B3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 454C31BF19AB89F000B6B3E8 /* Project object */;
+}

@@ -1,0 +1,16 @@
+/node_modules
+
+# IDE
+#
+.vscode
+
+# node.js
+#
+node_modules
+npm-debug.log
+/public/file
+
+# project
+#
+bin/
+obj/

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug.unicode|Win32">
+      <Configuration>Debug.unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release.unicode|Win32">
+      <Configuration>Release.unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D7865AF-0515-4E19-89B4-168164DA64CB}</ProjectGuid>
+    <RootNamespace>hyyun_s_rtmfp</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug.unicode|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release.unicode|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug.unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release.unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)/../bin.vc12/$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/../obj.vc12/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)/../bin.vc12/$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/../obj.vc12/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release.unicode|Win32'">
+    <OutDir>$(SolutionDir)/../bin.vc12/$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/../obj.vc12/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug.unicode|Win32'">
+    <OutDir>$(SolutionDir)/../bin.vc12/$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/../obj.vc12/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ext/openssl/include;$(SolutionDir)/../ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;HYYUN_S_RTMFP_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hyc.lib;hyyun_s.lib;ssleay32.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)/../ext/openssl/win32/lib/;$(SolutionDir)/../bin.vc12/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ext/openssl/include;$(SolutionDir)/../ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HYYUN_S_RTMFP_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hyc.lib;hyyun_s.lib;ssleay32.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)/../ext/openssl/win32/lib/;$(SolutionDir)/../bin.vc12/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release.unicode|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ext/openssl/include;$(SolutionDir)/../ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HYYUN_S_RTMFP_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hyc.lib;hyyun_s.lib;ssleay32.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)/../ext/openssl/win32/lib/;$(SolutionDir)/../bin.vc12/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug.unicode|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ext/openssl/include;$(SolutionDir)/../ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;HYYUN_S_RTMFP_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hyc.lib;hyyun_s.lib;ssleay32.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)/../ext/openssl/win32/lib/;$(SolutionDir)/../bin.vc12/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\hyyun_s_rtmfp\yun_rtmfpPlatform.h" />
+    <ClInclude Include="..\include\hyyun_s_rtmfp\yunServerRtmfp.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtDelegate.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtGroup.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtGroups.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtHeartbeatThread.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtPeer.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtPeerId.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtPreheader.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtResult.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMF.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMFObjectWriter.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMFReader.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMFSimpleObject.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMFWriter.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtBandWriter.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtConnectionFlow.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlow.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlowMessage.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlows.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlowWriter.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlowWriterTrigger.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtGroupFlow.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtStreamFlow.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\multimedia\rtPublication.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\multimedia\rtPublications.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\multimedia\rtSubscriber.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\multimedia\rtSubscribers.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtAddress.hpp" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtChunk.hpp" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtMultiplex.hpp" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtNet_struct.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtOption.hpp" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtPacket.hpp" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtVLU.hpp" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtCertificat.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtCookie.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtCookies.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtHandshakeSession.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtNormalSession.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtSession.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtSessions.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtTag.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\utils\rtAESCrypt.h" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\utils\rtPacketUtils.hpp" />
+    <ClInclude Include="..\source\hyyun_s_rtmfp\utils\rtTime.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\dllmain.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\rtDelegate.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\rtGroups.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\rtPeer.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\rtPeerId.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\yunServerRtmfp.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\AMF\AMFObjectWriter.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\AMF\AMFReader.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\AMF\AMFWriter.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtBandWriter.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtConnectionFlow.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtFlow.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtFlowMessage.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtFlows.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtFlowWriter.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtStreamFlow.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\multimedia\rtPublication.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\multimedia\rtPublications.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\multimedia\rtSubscriber.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtCookie.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtCookies.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtHandshakeSession.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtNormalSession.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtSession.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtSessions.cpp" />
+    <ClCompile Include="..\source\hyyun_s_rtmfp\utils\rtAESCrypt.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

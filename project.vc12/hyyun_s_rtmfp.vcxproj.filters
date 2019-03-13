@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{33eee121-7d3d-4f62-bdb4-ca89d501ab09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{fea190c7-3063-44a9-8a15-830c3590e42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AMF">
+      <UniqueIdentifier>{4603ee4a-f039-4adc-8917-7a866aa7b7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\flows">
+      <UniqueIdentifier>{ad81fb9d-5359-4a85-8c90-e08b0cc0f8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\multimedia">
+      <UniqueIdentifier>{be136cdd-b722-4827-9b99-4291b490119e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\net_struct">
+      <UniqueIdentifier>{8a48216b-85e2-4658-a8dc-3acbb9b4cb43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\sessions">
+      <UniqueIdentifier>{5227bdf9-ddcc-4731-b78f-ed38f161c320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{7cd57abe-9ff6-4f27-8ea5-66e8f3b58505}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\hyyun_s_rtmfp\yun_rtmfpPlatform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s_rtmfp\yunServerRtmfp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtDelegate.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtGroup.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtGroups.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtHeartbeatThread.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtPeer.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtPeerId.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtPreheader.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\rtResult.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMF.h">
+      <Filter>source\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMFObjectWriter.h">
+      <Filter>source\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMFReader.h">
+      <Filter>source\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMFSimpleObject.h">
+      <Filter>source\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\AMF\AMFWriter.h">
+      <Filter>source\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtBandWriter.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtConnectionFlow.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlow.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlowMessage.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlows.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlowWriter.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtFlowWriterTrigger.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtGroupFlow.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\flows\rtStreamFlow.h">
+      <Filter>source\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\multimedia\rtPublication.h">
+      <Filter>source\multimedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\multimedia\rtPublications.h">
+      <Filter>source\multimedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\multimedia\rtSubscriber.h">
+      <Filter>source\multimedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\multimedia\rtSubscribers.h">
+      <Filter>source\multimedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtAddress.hpp">
+      <Filter>source\net_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtChunk.hpp">
+      <Filter>source\net_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtMultiplex.hpp">
+      <Filter>source\net_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtNet_struct.h">
+      <Filter>source\net_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtOption.hpp">
+      <Filter>source\net_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtPacket.hpp">
+      <Filter>source\net_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\net_struct\rtVLU.hpp">
+      <Filter>source\net_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtCertificat.h">
+      <Filter>source\sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtCookie.h">
+      <Filter>source\sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtCookies.h">
+      <Filter>source\sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtHandshakeSession.h">
+      <Filter>source\sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtNormalSession.h">
+      <Filter>source\sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtSession.h">
+      <Filter>source\sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtSessions.h">
+      <Filter>source\sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\sessions\rtTag.h">
+      <Filter>source\sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\utils\rtAESCrypt.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\utils\rtPacketUtils.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s_rtmfp\utils\rtTime.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\rtDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\rtGroups.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\rtPeer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\rtPeerId.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\yunServerRtmfp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\AMF\AMFObjectWriter.cpp">
+      <Filter>source\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\AMF\AMFReader.cpp">
+      <Filter>source\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\AMF\AMFWriter.cpp">
+      <Filter>source\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtBandWriter.cpp">
+      <Filter>source\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtConnectionFlow.cpp">
+      <Filter>source\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtFlow.cpp">
+      <Filter>source\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtFlowMessage.cpp">
+      <Filter>source\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtFlows.cpp">
+      <Filter>source\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtFlowWriter.cpp">
+      <Filter>source\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\flows\rtStreamFlow.cpp">
+      <Filter>source\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\multimedia\rtPublication.cpp">
+      <Filter>source\multimedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\multimedia\rtPublications.cpp">
+      <Filter>source\multimedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\multimedia\rtSubscriber.cpp">
+      <Filter>source\multimedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtCookie.cpp">
+      <Filter>source\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtCookies.cpp">
+      <Filter>source\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtHandshakeSession.cpp">
+      <Filter>source\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtNormalSession.cpp">
+      <Filter>source\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtSession.cpp">
+      <Filter>source\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\sessions\rtSessions.cpp">
+      <Filter>source\sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s_rtmfp\utils\rtAESCrypt.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

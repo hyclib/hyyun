@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4573BB961B98452300C4EE98 /* hyyun.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB3C1B98452300C4EE98 /* hyyun.h */; };
+		4573BB971B98452300C4EE98 /* yun_cPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB3E1B98452300C4EE98 /* yun_cPlatform.h */; };
+		4573BB981B98452300C4EE98 /* yunClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB3F1B98452300C4EE98 /* yunClient.h */; };
+		4573BB991B98452300C4EE98 /* yunClientHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB401B98452300C4EE98 /* yunClientHandler.h */; };
+		4573BB9A1B98452300C4EE98 /* yunStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB411B98452300C4EE98 /* yunStatistics.h */; };
+		4573BB9B1B98452300C4EE98 /* yun_sPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB431B98452300C4EE98 /* yun_sPlatform.h */; };
+		4573BB9C1B98452300C4EE98 /* yunConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB441B98452300C4EE98 /* yunConnection.h */; };
+		4573BB9D1B98452300C4EE98 /* yunEndpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB451B98452300C4EE98 /* yunEndpoint.h */; };
+		4573BB9E1B98452300C4EE98 /* yunServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB461B98452300C4EE98 /* yunServer.h */; };
+		4573BB9F1B98452300C4EE98 /* yunServerHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB471B98452300C4EE98 /* yunServerHandler.h */; };
+		4573BBA01B98452300C4EE98 /* yunServerTcp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB481B98452300C4EE98 /* yunServerTcp.h */; };
+		4573BBA11B98452300C4EE98 /* yunServerUdp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB491B98452300C4EE98 /* yunServerUdp.h */; };
+		4573BBA21B98452300C4EE98 /* yunTcpAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB4A1B98452300C4EE98 /* yunTcpAgent.h */; };
+		4573BBA31B98452300C4EE98 /* yunUdpAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB4B1B98452300C4EE98 /* yunUdpAgent.h */; };
+		4573BBA41B98452300C4EE98 /* hyyunPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB4C1B98452300C4EE98 /* hyyunPlatform.h */; };
+		4573BBA51B98452300C4EE98 /* yunStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB4E1B98452300C4EE98 /* yunStream.h */; };
+		4573BBA61B98452300C4EE98 /* yunStreamAnalyser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB4F1B98452300C4EE98 /* yunStreamAnalyser.h */; };
+		4573BBAA1B98452300C4EE98 /* preheader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB551B98452300C4EE98 /* preheader.h */; };
+		4573BBAB1B98452300C4EE98 /* clientHeartBeatThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4573BB571B98452300C4EE98 /* clientHeartBeatThread.cpp */; };
+		4573BBAC1B98452300C4EE98 /* clientHeartBeatThread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB581B98452300C4EE98 /* clientHeartBeatThread.hpp */; };
+		4573BBAD1B98452300C4EE98 /* clientMessageThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB591B98452300C4EE98 /* clientMessageThread.h */; };
+		4573BBAE1B98452300C4EE98 /* yunClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4573BB5A1B98452300C4EE98 /* yunClient.cpp */; };
+		4573BBAF1B98452300C4EE98 /* yunClient_p.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB5B1B98452300C4EE98 /* yunClient_p.hpp */; };
+		4573BBB01B98452300C4EE98 /* yunClientMessageCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4573BB5C1B98452300C4EE98 /* yunClientMessageCenter.cpp */; };
+		4573BBB11B98452300C4EE98 /* yunClientMessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB5D1B98452300C4EE98 /* yunClientMessageCenter.h */; };
+		4573BBB21B98452300C4EE98 /* yunStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4573BB5E1B98452300C4EE98 /* yunStatistics.cpp */; };
+		4573BBDE1B98452400C4EE98 /* trace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4573BB901B98452300C4EE98 /* trace.cpp */; };
+		4573BBDF1B98452400C4EE98 /* preheader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB921B98452300C4EE98 /* preheader.h */; };
+		4573BBE01B98452400C4EE98 /* yunStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4573BB931B98452300C4EE98 /* yunStream.cpp */; };
+		4573BBE11B98452400C4EE98 /* yunStreamAnalyser0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4573BB941B98452300C4EE98 /* yunStreamAnalyser0.cpp */; };
+		4573BBE21B98452400C4EE98 /* yunStreamAnalyser0.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4573BB951B98452300C4EE98 /* yunStreamAnalyser0.hpp */; };
+		45DBA11419B8447500FE2E66 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DBA11319B8447500FE2E66 /* XCTest.framework */; };
+		45DBA11519B8447500FE2E66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		45DBA11719B8447500FE2E66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DBA11619B8447500FE2E66 /* UIKit.framework */; };
+		45DBA11D19B8447500FE2E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45DBA11B19B8447500FE2E66 /* InfoPlist.strings */; };
+		45DBA11F19B8447500FE2E66 /* hyyun_c_Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45DBA11E19B8447500FE2E66 /* hyyun_c_Tests.mm */; };
+		45DBA13819B861C300FE2E66 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DBA13519B8609800FE2E66 /* libstdc++.6.dylib */; };
+		45DBA13919B9913400FE2E66 /* libhyc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DBA12919B8568600FE2E66 /* libhyc.a */; };
+		45DBA13A19B9918800FE2E66 /* libhyyun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libhyyun.a */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45DBA12119B8447500FE2E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = hyyun_c;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45511A111A5D32FB001EAAAF /* libhyc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyc.a; path = "../../../../hy_bin/latest/libs/ios/Debug-iphonesimulator-64/libhyc.a"; sourceTree = "<group>"; };
+		45511A281A63B461001EAAAF /* libhyc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyc.a; path = "../../../../hy_bin/latest/libs/ios/Debug-iphonesimulator/libhyc.a"; sourceTree = "<group>"; };
+		4573BB3C1B98452300C4EE98 /* hyyun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hyyun.h; sourceTree = "<group>"; };
+		4573BB3E1B98452300C4EE98 /* yun_cPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yun_cPlatform.h; sourceTree = "<group>"; };
+		4573BB3F1B98452300C4EE98 /* yunClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunClient.h; sourceTree = "<group>"; };
+		4573BB401B98452300C4EE98 /* yunClientHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunClientHandler.h; sourceTree = "<group>"; };
+		4573BB411B98452300C4EE98 /* yunStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunStatistics.h; sourceTree = "<group>"; };
+		4573BB431B98452300C4EE98 /* yun_sPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yun_sPlatform.h; sourceTree = "<group>"; };
+		4573BB441B98452300C4EE98 /* yunConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunConnection.h; sourceTree = "<group>"; };
+		4573BB451B98452300C4EE98 /* yunEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunEndpoint.h; sourceTree = "<group>"; };
+		4573BB461B98452300C4EE98 /* yunServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunServer.h; sourceTree = "<group>"; };
+		4573BB471B98452300C4EE98 /* yunServerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunServerHandler.h; sourceTree = "<group>"; };
+		4573BB481B98452300C4EE98 /* yunServerTcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunServerTcp.h; sourceTree = "<group>"; };
+		4573BB491B98452300C4EE98 /* yunServerUdp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunServerUdp.h; sourceTree = "<group>"; };
+		4573BB4A1B98452300C4EE98 /* yunTcpAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunTcpAgent.h; sourceTree = "<group>"; };
+		4573BB4B1B98452300C4EE98 /* yunUdpAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunUdpAgent.h; sourceTree = "<group>"; };
+		4573BB4C1B98452300C4EE98 /* hyyunPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hyyunPlatform.h; sourceTree = "<group>"; };
+		4573BB4E1B98452300C4EE98 /* yunStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunStream.h; sourceTree = "<group>"; };
+		4573BB4F1B98452300C4EE98 /* yunStreamAnalyser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunStreamAnalyser.h; sourceTree = "<group>"; };
+		4573BB551B98452300C4EE98 /* preheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = preheader.h; sourceTree = "<group>"; };
+		4573BB571B98452300C4EE98 /* clientHeartBeatThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clientHeartBeatThread.cpp; sourceTree = "<group>"; };
+		4573BB581B98452300C4EE98 /* clientHeartBeatThread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = clientHeartBeatThread.hpp; sourceTree = "<group>"; };
+		4573BB591B98452300C4EE98 /* clientMessageThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clientMessageThread.h; sourceTree = "<group>"; };
+		4573BB5A1B98452300C4EE98 /* yunClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yunClient.cpp; sourceTree = "<group>"; };
+		4573BB5B1B98452300C4EE98 /* yunClient_p.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = yunClient_p.hpp; sourceTree = "<group>"; };
+		4573BB5C1B98452300C4EE98 /* yunClientMessageCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yunClientMessageCenter.cpp; sourceTree = "<group>"; };
+		4573BB5D1B98452300C4EE98 /* yunClientMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yunClientMessageCenter.h; sourceTree = "<group>"; };
+		4573BB5E1B98452300C4EE98 /* yunStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yunStatistics.cpp; sourceTree = "<group>"; };
+		4573BB901B98452300C4EE98 /* trace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trace.cpp; sourceTree = "<group>"; };
+		4573BB921B98452300C4EE98 /* preheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = preheader.h; sourceTree = "<group>"; };
+		4573BB931B98452300C4EE98 /* yunStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yunStream.cpp; sourceTree = "<group>"; };
+		4573BB941B98452300C4EE98 /* yunStreamAnalyser0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yunStreamAnalyser0.cpp; sourceTree = "<group>"; };
+		4573BB951B98452300C4EE98 /* yunStreamAnalyser0.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = yunStreamAnalyser0.hpp; sourceTree = "<group>"; };
+		45AD398016B18F8E002464DD /* libhyc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyc.a; path = "../../bin/Debug-iphoneos/libhyc.a"; sourceTree = "<group>"; };
+		45DBA11219B8447500FE2E66 /* hyyun Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hyyun Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DBA11319B8447500FE2E66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45DBA11619B8447500FE2E66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		45DBA11A19B8447500FE2E66 /* hyyun Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hyyun Tests-Info.plist"; sourceTree = "<group>"; };
+		45DBA11C19B8447500FE2E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45DBA11E19B8447500FE2E66 /* hyyun_c_Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = hyyun_c_Tests.mm; sourceTree = "<group>"; };
+		45DBA12019B8447500FE2E66 /* hyyun Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hyyun Tests-Prefix.pch"; sourceTree = "<group>"; };
+		45DBA12619B844F000FE2E66 /* libhyc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyc.a; path = "../bin/Debug-iphoneos/libhyc.a"; sourceTree = "<group>"; };
+		45DBA12919B8568600FE2E66 /* libhyc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhyc.a; path = "../../../../hy_bin/latest/libs/ios/Debug-iphoneos/libhyc.a"; sourceTree = "<group>"; };
+		45DBA13119B8608300FE2E66 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		45DBA13319B8608E00FE2E66 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		45DBA13519B8609800FE2E66 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libhyyun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhyyun.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45DBA10F19B8447500FE2E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DBA13A19B9918800FE2E66 /* libhyyun.a in Frameworks */,
+				45DBA13919B9913400FE2E66 /* libhyc.a in Frameworks */,
+				45DBA13819B861C300FE2E66 /* libstdc++.6.dylib in Frameworks */,
+				45DBA11419B8447500FE2E66 /* XCTest.framework in Frameworks */,
+				45DBA11719B8447500FE2E66 /* UIKit.framework in Frameworks */,
+				45DBA11519B8447500FE2E66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libhyyun.a */,
+				45DBA11219B8447500FE2E66 /* hyyun Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* hyyun_c */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB3B1B98452300C4EE98 /* include */,
+				4573BB521B98452300C4EE98 /* source */,
+				45DBA11819B8447500FE2E66 /* hyyun_c Tests */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = hyyun_c;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45511A281A63B461001EAAAF /* libhyc.a */,
+				45511A111A5D32FB001EAAAF /* libhyc.a */,
+				45DBA13519B8609800FE2E66 /* libstdc++.6.dylib */,
+				45DBA13319B8608E00FE2E66 /* libstdc++.dylib */,
+				45DBA13119B8608300FE2E66 /* AVFoundation.framework */,
+				45DBA12919B8568600FE2E66 /* libhyc.a */,
+				45DBA12619B844F000FE2E66 /* libhyc.a */,
+				45AD398016B18F8E002464DD /* libhyc.a */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				45DBA11319B8447500FE2E66 /* XCTest.framework */,
+				45DBA11619B8447500FE2E66 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4573BB3B1B98452300C4EE98 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB3C1B98452300C4EE98 /* hyyun.h */,
+				4573BB3D1B98452300C4EE98 /* hyyun_c */,
+				4573BB421B98452300C4EE98 /* hyyun_s */,
+				4573BB4C1B98452300C4EE98 /* hyyunPlatform.h */,
+				4573BB4D1B98452300C4EE98 /* utils */,
+			);
+			name = include;
+			path = ../include;
+			sourceTree = "<group>";
+		};
+		4573BB3D1B98452300C4EE98 /* hyyun_c */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB3E1B98452300C4EE98 /* yun_cPlatform.h */,
+				4573BB3F1B98452300C4EE98 /* yunClient.h */,
+				4573BB401B98452300C4EE98 /* yunClientHandler.h */,
+				4573BB411B98452300C4EE98 /* yunStatistics.h */,
+			);
+			path = hyyun_c;
+			sourceTree = "<group>";
+		};
+		4573BB421B98452300C4EE98 /* hyyun_s */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB431B98452300C4EE98 /* yun_sPlatform.h */,
+				4573BB441B98452300C4EE98 /* yunConnection.h */,
+				4573BB451B98452300C4EE98 /* yunEndpoint.h */,
+				4573BB461B98452300C4EE98 /* yunServer.h */,
+				4573BB471B98452300C4EE98 /* yunServerHandler.h */,
+				4573BB481B98452300C4EE98 /* yunServerTcp.h */,
+				4573BB491B98452300C4EE98 /* yunServerUdp.h */,
+				4573BB4A1B98452300C4EE98 /* yunTcpAgent.h */,
+				4573BB4B1B98452300C4EE98 /* yunUdpAgent.h */,
+			);
+			path = hyyun_s;
+			sourceTree = "<group>";
+		};
+		4573BB4D1B98452300C4EE98 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB4E1B98452300C4EE98 /* yunStream.h */,
+				4573BB4F1B98452300C4EE98 /* yunStreamAnalyser.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		4573BB521B98452300C4EE98 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB531B98452300C4EE98 /* hyyun_c */,
+				4573BB901B98452300C4EE98 /* trace.cpp */,
+				4573BB911B98452300C4EE98 /* utils */,
+			);
+			name = source;
+			path = ../source;
+			sourceTree = "<group>";
+		};
+		4573BB531B98452300C4EE98 /* hyyun_c */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB551B98452300C4EE98 /* preheader.h */,
+				4573BB561B98452300C4EE98 /* thread */,
+				4573BB5A1B98452300C4EE98 /* yunClient.cpp */,
+				4573BB5B1B98452300C4EE98 /* yunClient_p.hpp */,
+				4573BB5C1B98452300C4EE98 /* yunClientMessageCenter.cpp */,
+				4573BB5D1B98452300C4EE98 /* yunClientMessageCenter.h */,
+				4573BB5E1B98452300C4EE98 /* yunStatistics.cpp */,
+			);
+			path = hyyun_c;
+			sourceTree = "<group>";
+		};
+		4573BB561B98452300C4EE98 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB571B98452300C4EE98 /* clientHeartBeatThread.cpp */,
+				4573BB581B98452300C4EE98 /* clientHeartBeatThread.hpp */,
+				4573BB591B98452300C4EE98 /* clientMessageThread.h */,
+			);
+			path = thread;
+			sourceTree = "<group>";
+		};
+		4573BB911B98452300C4EE98 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4573BB921B98452300C4EE98 /* preheader.h */,
+				4573BB931B98452300C4EE98 /* yunStream.cpp */,
+				4573BB941B98452300C4EE98 /* yunStreamAnalyser0.cpp */,
+				4573BB951B98452300C4EE98 /* yunStreamAnalyser0.hpp */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		45DBA11819B8447500FE2E66 /* hyyun_c Tests */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA11E19B8447500FE2E66 /* hyyun_c_Tests.mm */,
+				45DBA11919B8447500FE2E66 /* Supporting Files */,
+			);
+			path = "hyyun_c Tests";
+			sourceTree = "<group>";
+		};
+		45DBA11919B8447500FE2E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45DBA11A19B8447500FE2E66 /* hyyun Tests-Info.plist */,
+				45DBA11B19B8447500FE2E66 /* InfoPlist.strings */,
+				45DBA12019B8447500FE2E66 /* hyyun Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4573BB9D1B98452300C4EE98 /* yunEndpoint.h in Headers */,
+				4573BBAC1B98452300C4EE98 /* clientHeartBeatThread.hpp in Headers */,
+				4573BBA21B98452300C4EE98 /* yunTcpAgent.h in Headers */,
+				4573BBA61B98452300C4EE98 /* yunStreamAnalyser.h in Headers */,
+				4573BBA41B98452300C4EE98 /* hyyunPlatform.h in Headers */,
+				4573BB9F1B98452300C4EE98 /* yunServerHandler.h in Headers */,
+				4573BBA01B98452300C4EE98 /* yunServerTcp.h in Headers */,
+				4573BBAD1B98452300C4EE98 /* clientMessageThread.h in Headers */,
+				4573BB9B1B98452300C4EE98 /* yun_sPlatform.h in Headers */,
+				4573BB9C1B98452300C4EE98 /* yunConnection.h in Headers */,
+				4573BBAF1B98452300C4EE98 /* yunClient_p.hpp in Headers */,
+				4573BB971B98452300C4EE98 /* yun_cPlatform.h in Headers */,
+				4573BB9A1B98452300C4EE98 /* yunStatistics.h in Headers */,
+				4573BBA51B98452300C4EE98 /* yunStream.h in Headers */,
+				4573BB991B98452300C4EE98 /* yunClientHandler.h in Headers */,
+				4573BBAA1B98452300C4EE98 /* preheader.h in Headers */,
+				4573BBA31B98452300C4EE98 /* yunUdpAgent.h in Headers */,
+				4573BBA11B98452300C4EE98 /* yunServerUdp.h in Headers */,
+				4573BB9E1B98452300C4EE98 /* yunServer.h in Headers */,
+				4573BBDF1B98452400C4EE98 /* preheader.h in Headers */,
+				4573BB961B98452300C4EE98 /* hyyun.h in Headers */,
+				4573BB981B98452300C4EE98 /* yunClient.h in Headers */,
+				4573BBB11B98452300C4EE98 /* yunClientMessageCenter.h in Headers */,
+				4573BBE21B98452400C4EE98 /* yunStreamAnalyser0.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45DBA11119B8447500FE2E66 /* hyyun Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DBA12519B8447500FE2E66 /* Build configuration list for PBXNativeTarget "hyyun Tests" */;
+			buildPhases = (
+				45DBA10E19B8447500FE2E66 /* Sources */,
+				45DBA10F19B8447500FE2E66 /* Frameworks */,
+				45DBA11019B8447500FE2E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DBA12219B8447500FE2E66 /* PBXTargetDependency */,
+			);
+			name = "hyyun Tests";
+			productName = "hyyun_c Tests";
+			productReference = 45DBA11219B8447500FE2E66 /* hyyun Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2AAC07D0554694100DB518D /* hyyun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "hyyun" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hyyun;
+			productName = hyyun_c;
+			productReference = D2AAC07E0554694100DB518D /* libhyyun.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					45DBA11119B8447500FE2E66 = {
+						TestTargetID = D2AAC07D0554694100DB518D;
+					};
+				};
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "hyyun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* hyyun_c */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* hyyun */,
+				45DBA11119B8447500FE2E66 /* hyyun Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45DBA11019B8447500FE2E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DBA11D19B8447500FE2E66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45DBA10E19B8447500FE2E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DBA11F19B8447500FE2E66 /* hyyun_c_Tests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4573BBB01B98452300C4EE98 /* yunClientMessageCenter.cpp in Sources */,
+				4573BBDE1B98452400C4EE98 /* trace.cpp in Sources */,
+				4573BBB21B98452300C4EE98 /* yunStatistics.cpp in Sources */,
+				4573BBE11B98452400C4EE98 /* yunStreamAnalyser0.cpp in Sources */,
+				4573BBAE1B98452300C4EE98 /* yunClient.cpp in Sources */,
+				4573BBE01B98452400C4EE98 /* yunStream.cpp in Sources */,
+				4573BBAB1B98452300C4EE98 /* clientHeartBeatThread.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45DBA12219B8447500FE2E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* hyyun */;
+			targetProxy = 45DBA12119B8447500FE2E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45DBA11B19B8447500FE2E66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DBA11C19B8447500FE2E66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/hyyun_c.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/lib;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				PRODUCT_NAME = hyyun;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/hyyun_c.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = hyyun;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "../../../../hy_bin/latest/libs/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SYMROOT = "$(PROJECT_DIR)/../bin";
+				USER_HEADER_SEARCH_PATHS = "../ext ../../../../hy_bin/latest/include";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "../../../../hy_bin/latest/libs/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SYMROOT = "$(PROJECT_DIR)/../bin";
+				USER_HEADER_SEARCH_PATHS = "../ext ../../../../hy_bin/latest/include";
+			};
+			name = Release;
+		};
+		45DBA12319B8447500FE2E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hyyun_c Tests/hyyun Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "hyyun_c Tests/hyyun Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/brainpoint/Project/svn/hy_bin/latest/libs/ios/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "hyyun Tests";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45DBA12419B8447500FE2E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hyyun_c Tests/hyyun Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "hyyun_c Tests/hyyun Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/brainpoint/Project/svn/hy_bin/latest/libs/ios/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "hyyun Tests";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "hyyun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "hyyun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DBA12519B8447500FE2E66 /* Build configuration list for PBXNativeTarget "hyyun Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DBA12319B8447500FE2E66 /* Debug */,
+				45DBA12419B8447500FE2E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

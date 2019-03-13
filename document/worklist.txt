@@ -1,0 +1,7 @@
+1. 内存池区间快速查找.
+2. 心跳包快速算法.
+3. UdpAsyncInfo._isStart 可能存在多线程冲突. 没有使用数组记录已经投递的异步请求.
+4. socket.close 使用cas.
+5. pool 分配空间不足时, 做block.
+
+1. rtmfp 去除cookie内存持久化.

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="source\static_objs">
+      <UniqueIdentifier>{8703b26e-d4af-490f-8b07-175a786134ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\hyyun_c_json\yun_cJsonPlatform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_c_json\yunClientJson.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c_json\messageThread.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c_json\preheader.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c_json\static_objs\handshakeProcessor.h">
+      <Filter>source\static_objs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c_json\static_objs\infoProcessor.h">
+      <Filter>source\static_objs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c_json\static_objs\processorBase.h">
+      <Filter>source\static_objs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\hyyun_c_json\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_c_json\yunClientJson.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_c_json\static_objs\handshakeProcessor.cpp">
+      <Filter>source\static_objs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_c_json\static_objs\infoProcessor.cpp">
+      <Filter>source\static_objs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_c_json\static_objs\processorBase.cpp">
+      <Filter>source\static_objs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

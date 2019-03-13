@@ -1,0 +1,61 @@
+<YunRoot version="3.0" cppNamespace="hyyun">
+	<UserDefinedTypes/>
+	<TypeAlias/>
+	<DataBinding>
+		<headerCpp/>
+	</DataBinding>
+	<Database>
+		<Nodes/>
+	</Database>
+	<Layers>
+		<Layer name="Test" type="1"/>
+	</Layers>
+	<Protical>
+		<Layer name="Test" type="1">
+			<Statuses init="(default)">
+				<Status name="(default)"/>
+				<Status name="global"/>
+				<Status name="dd"/>
+			</Statuses>
+			<Nodes>
+				<Status name="(default)"/>
+				<Status name="global">
+					<Node name="Logic1" color="4278399851" width="178.000000" height="152.515625" x="170.000000" y="161.000000">
+						<Comment>逻辑处理1</Comment>
+						<ClientMethod>
+							<Method name="foo1" transmit="1" udp="0" multi="0" client="1">
+								<Returns>
+									<Param name="r" type="f32" array="0"/>
+								</Returns>
+								<Params>
+									<Param name="p1" type="String" array="0"/>
+									<Param name="p2" type="s32" array="0"/>
+									<Param name="p3" type="f32" array="0"/>
+								</Params>
+							</Method>
+						</ClientMethod>
+						<ServerMethod>
+							<Method name="foo2" comment="发送数据给客户端" transmit="0" udp="0" multi="0" client="0">
+								<Returns/>
+								<Params>
+									<Param name="p1" type="String" array="0"/>
+									<Param name="p2" type="f32" array="0"/>
+								</Params>
+							</Method>
+						</ServerMethod>
+						<Attribute/>
+					</Node>
+				</Status>
+				<Status name="dd">
+					<Node name="AA" color="4278399851" width="100.000000" height="80.000000" x="140.000000" y="166.000000">
+						<Comment/>
+						<ClientMethod/>
+						<ServerMethod/>
+						<Attribute/>
+					</Node>
+				</Status>
+			</Nodes>
+		</Layer>
+	</Protical>
+</YunRoot>
+

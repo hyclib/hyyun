@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="reflex">
+      <UniqueIdentifier>{75fa95f3-03db-48ab-8f21-133df0955ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reflex\global">
+      <UniqueIdentifier>{fac8160c-224f-48df-bacf-06acc5b57f60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01.demo_c.hpp" />
+    <ClInclude Include="02.demo_message_c.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_c.cpp" />
+  </ItemGroup>
+</Project>

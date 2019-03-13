@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="reflex">
+      <UniqueIdentifier>{38d9771d-6b35-4352-9a64-4f458181b6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reflex\global">
+      <UniqueIdentifier>{1861ddbf-c608-449e-89c3-af068fa54483}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01.demo_tcp_s.hpp" />
+    <ClInclude Include="02.demo_udp_s.hpp" />
+    <ClInclude Include="03.demo_tcp_message_s.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_s.cpp" />
+  </ItemGroup>
+</Project>

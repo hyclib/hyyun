@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{560b4eec-9f1d-4cd2-891f-6bef65bafd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\include">
+      <UniqueIdentifier>{ca38db3d-2e36-4221-a7b9-22292afd0d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\source">
+      <UniqueIdentifier>{7f3c6123-045a-44d2-9b41-17a3ec7ebd17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\source\thread">
+      <UniqueIdentifier>{9dcc8c91-43fd-4958-9dac-b6188441a63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{e3cd45a3-7006-49d4-96f7-ce9dfa8b8cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\include">
+      <UniqueIdentifier>{899f929c-19b3-4556-846a-34b38b8b12cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\source">
+      <UniqueIdentifier>{42433fc0-caa3-4b83-b41f-35f406fedf62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\source\pool">
+      <UniqueIdentifier>{1e50e75a-5c7a-4e54-a383-319743c55ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\source\thread">
+      <UniqueIdentifier>{5110796f-c340-4499-a462-5230902fb590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\source\tcp">
+      <UniqueIdentifier>{4d985887-31fd-4af1-9f90-bdcd97189edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\source\udp">
+      <UniqueIdentifier>{37826229-2d47-4deb-9c08-182329cdf7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{93388feb-507e-443d-9579-45b6437cd67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\include">
+      <UniqueIdentifier>{c933077e-b962-44fe-8a7e-22aa30078d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\source">
+      <UniqueIdentifier>{b6e4ccb2-a1aa-4cf2-aba0-f0d83a70ecb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\hyyun_s\preheader.h">
+      <Filter>server\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\yunMessageQueue.h">
+      <Filter>server\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\pool\collections.hpp">
+      <Filter>server\source\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\pool\connectionPool.hpp">
+      <Filter>server\source\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\pool\pools.hpp">
+      <Filter>server\source\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\pool\poolTemplate.hpp">
+      <Filter>server\source\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\thread\serverMemoryPoolThread.h">
+      <Filter>server\source\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\thread\serverWorkThread.h">
+      <Filter>server\source\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\thread\workItemAccept.hpp">
+      <Filter>server\source\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpConnectConsumer.h">
+      <Filter>server\source\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpConnectEvent.h">
+      <Filter>server\source\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpHeartBeat.h">
+      <Filter>server\source\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpHeartBeatThread.h">
+      <Filter>server\source\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpMessageConsumer.h">
+      <Filter>server\source\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\tcp\yunServerTcp_p.hpp">
+      <Filter>server\source\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\udp\udpAsyncInfo.h">
+      <Filter>server\source\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\udp\udpMessageConsumer.h">
+      <Filter>server\source\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\udp\udpWriteConsumer.h">
+      <Filter>server\source\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yun_sPlatform.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yunConnection.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yunEndpoint.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yunServer.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yunServerHandler.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yunServerTcp.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yunServerUdp.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yunTcpAgent.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_s\yunUdpAgent.h">
+      <Filter>server\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\pool\yunStreamPool.h">
+      <Filter>server\source\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_c\yunClient.h">
+      <Filter>client\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_c\yunClientHandler.h">
+      <Filter>client\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_c\yunStatistics.h">
+      <Filter>client\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyyun_c\yun_cPlatform.h">
+      <Filter>client\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c\preheader.h">
+      <Filter>client\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c\yunClientMessageCenter.h">
+      <Filter>client\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c\yunClient_p.hpp">
+      <Filter>client\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c\thread\clientHeartBeatThread.hpp">
+      <Filter>client\source\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_c\thread\clientMessageThread.h">
+      <Filter>client\source\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\yunStreamAnalyser.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\yunStream.h">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\utils\yunStreamAnalyser0.hpp">
+      <Filter>utils\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\utils\preheader.h">
+      <Filter>utils\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\yunStreamEmptyAnalyser.hpp">
+      <Filter>utils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\tcp\yunTcpAgent_epoll.hpp">
+      <Filter>server\source\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hyyun_s\tcp\yunTcpAgent_iocp.hpp">
+      <Filter>server\source\tcp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\hyyun_s\dllmain.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\yunEndpoint.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\yunServer.cpp">
+      <Filter>server\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\pool\connectionPool.cpp">
+      <Filter>server\source\pool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\pool\pools.cpp">
+      <Filter>server\source\pool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\pool\yunStreamPool.cpp">
+      <Filter>server\source\pool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\thread\serverMemoryPoolThread.cpp">
+      <Filter>server\source\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\thread\serverWorkThread.cpp">
+      <Filter>server\source\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpConnectConsumer.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpConnectEvent.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpHeartBeat.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpHeartBeatThread.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpMessageConsumer.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\yunConnection.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\yunServerTcp.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\yunServerTcp_p.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\tcp\yunTcpAgent.cpp">
+      <Filter>server\source\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\udp\udpMessageConsumer.cpp">
+      <Filter>server\source\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\udp\udpWriteConsumer.cpp">
+      <Filter>server\source\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\udp\yunServerUdp.cpp">
+      <Filter>server\source\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_s\udp\yunUdpAgent.cpp">
+      <Filter>server\source\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_c\yunClient.cpp">
+      <Filter>client\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_c\yunClientMessageCenter.cpp">
+      <Filter>client\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_c\yunStatistics.cpp">
+      <Filter>client\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hyyun_c\thread\clientHeartBeatThread.cpp">
+      <Filter>client\source\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\yunStream.cpp">
+      <Filter>utils\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\yunStreamAnalyser0.cpp">
+      <Filter>utils\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\trace.cpp" />
+  </ItemGroup>
+</Project>

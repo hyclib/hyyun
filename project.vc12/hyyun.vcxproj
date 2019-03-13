@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug.unicode|Win32">
+      <Configuration>Debug.unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release.unicode|Win32">
+      <Configuration>Release.unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B6D185E-F223-495E-A1F8-949CF2D0334F}</ProjectGuid>
+    <RootNamespace>hyyun_s</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>hyyun</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release.unicode|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug.unicode|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release.unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug.unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)/../bin.vc12/$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/../obj.vc12/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>E:\libs\Boost\lib\vc12;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\libs\Boost\include\boost-1_57\;..\..\..\..\hy_bin\latest\include;$(IncludePath);$(VC_IncludePath);$(WindowsSdk_71A_IncludePath)</IncludePath>
+    <ReferencePath>$(FrameworkDir)$(FrameworkVersion);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)/../bin.vc12/$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/../obj.vc12/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>E:\libs\Boost\lib\vc12;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\libs\Boost\include\boost-1_57\;..\..\..\..\hy_bin\latest\include;$(IncludePath);$(VC_IncludePath);$(WindowsSdk_71A_IncludePath)</IncludePath>
+    <ReferencePath>$(FrameworkDir)$(FrameworkVersion);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug.unicode|Win32'">
+    <OutDir>$(SolutionDir)/../bin.vc12/$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/../obj.vc12/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>E:\libs\Boost\lib\vc12;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\libs\Boost\include\boost-1_57\;..\..\..\..\hy_bin\latest\include;$(IncludePath);$(VC_IncludePath);$(WindowsSdk_71A_IncludePath)</IncludePath>
+    <ReferencePath>$(FrameworkDir)$(FrameworkVersion);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release.unicode|Win32'">
+    <OutDir>$(SolutionDir)/../bin.vc12/$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)/../obj.vc12/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>E:\libs\Boost\lib\vc12;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\libs\Boost\include\boost-1_57\;..\..\..\..\hy_bin\latest\include;$(IncludePath);$(VC_IncludePath);$(WindowsSdk_71A_IncludePath)</IncludePath>
+    <ReferencePath>$(FrameworkDir)$(FrameworkVersion);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command />
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;HYYUN_S_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hyc.lib;hymq.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../bin.vc12/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command />
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HYYUN_S_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hyc.lib;hymq.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../bin.vc12/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug.unicode|Win32'">
+    <PreBuildEvent>
+      <Command />
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;HYYUN_S_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hyc.lib;hymq.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../bin.vc12/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release.unicode|Win32'">
+    <PreBuildEvent>
+      <Command />
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HYYUN_S_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>hyc.lib;hymq.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../bin.vc12/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\hyyun_c\yunClient.h" />
+    <ClInclude Include="..\include\hyyun_c\yunClientHandler.h" />
+    <ClInclude Include="..\include\hyyun_c\yunStatistics.h" />
+    <ClInclude Include="..\include\hyyun_c\yun_cPlatform.h" />
+    <ClInclude Include="..\include\hyyun_s\yunConnection.h" />
+    <ClInclude Include="..\include\hyyun_s\yunEndpoint.h" />
+    <ClInclude Include="..\include\hyyun_s\yunServer.h" />
+    <ClInclude Include="..\include\hyyun_s\yunServerHandler.h" />
+    <ClInclude Include="..\include\hyyun_s\yunServerTcp.h" />
+    <ClInclude Include="..\include\hyyun_s\yunServerUdp.h" />
+    <ClInclude Include="..\include\hyyun_s\yunTcpAgent.h" />
+    <ClInclude Include="..\include\hyyun_s\yunUdpAgent.h" />
+    <ClInclude Include="..\include\hyyun_s\yun_sPlatform.h" />
+    <ClInclude Include="..\include\utils\yunStream.h" />
+    <ClInclude Include="..\include\utils\yunStreamAnalyser.h" />
+    <ClInclude Include="..\include\utils\yunStreamEmptyAnalyser.hpp" />
+    <ClInclude Include="..\source\hyyun_c\preheader.h" />
+    <ClInclude Include="..\source\hyyun_c\thread\clientHeartBeatThread.hpp" />
+    <ClInclude Include="..\source\hyyun_c\thread\clientMessageThread.h" />
+    <ClInclude Include="..\source\hyyun_c\yunClientMessageCenter.h" />
+    <ClInclude Include="..\source\hyyun_c\yunClient_p.hpp" />
+    <ClInclude Include="..\source\hyyun_s\pool\yunStreamPool.h" />
+    <ClInclude Include="..\source\hyyun_s\preheader.h" />
+    <ClInclude Include="..\source\hyyun_s\tcp\yunTcpAgent_epoll.hpp" />
+    <ClInclude Include="..\source\hyyun_s\tcp\yunTcpAgent_iocp.hpp" />
+    <ClInclude Include="..\source\hyyun_s\yunMessageQueue.h" />
+    <ClInclude Include="..\source\hyyun_s\pool\collections.hpp" />
+    <ClInclude Include="..\source\hyyun_s\pool\connectionPool.hpp" />
+    <ClInclude Include="..\source\hyyun_s\pool\pools.hpp" />
+    <ClInclude Include="..\source\hyyun_s\pool\poolTemplate.hpp" />
+    <ClInclude Include="..\source\hyyun_s\thread\serverMemoryPoolThread.h" />
+    <ClInclude Include="..\source\hyyun_s\thread\serverWorkThread.h" />
+    <ClInclude Include="..\source\hyyun_s\thread\workItemAccept.hpp" />
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpConnectConsumer.h" />
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpConnectEvent.h" />
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpHeartBeat.h" />
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpHeartBeatThread.h" />
+    <ClInclude Include="..\source\hyyun_s\tcp\tcpMessageConsumer.h" />
+    <ClInclude Include="..\source\hyyun_s\tcp\yunServerTcp_p.hpp" />
+    <ClInclude Include="..\source\hyyun_s\udp\udpAsyncInfo.h" />
+    <ClInclude Include="..\source\hyyun_s\udp\udpMessageConsumer.h" />
+    <ClInclude Include="..\source\hyyun_s\udp\udpWriteConsumer.h" />
+    <ClInclude Include="..\source\utils\preheader.h" />
+    <ClInclude Include="..\source\utils\yunStreamAnalyser0.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\hyyun_c\thread\clientHeartBeatThread.cpp" />
+    <ClCompile Include="..\source\hyyun_c\yunClient.cpp" />
+    <ClCompile Include="..\source\hyyun_c\yunClientMessageCenter.cpp" />
+    <ClCompile Include="..\source\hyyun_c\yunStatistics.cpp" />
+    <ClCompile Include="..\source\hyyun_s\dllmain.cpp" />
+    <ClCompile Include="..\source\hyyun_s\yunEndpoint.cpp" />
+    <ClCompile Include="..\source\hyyun_s\yunServer.cpp" />
+    <ClCompile Include="..\source\hyyun_s\pool\connectionPool.cpp" />
+    <ClCompile Include="..\source\hyyun_s\pool\pools.cpp" />
+    <ClCompile Include="..\source\hyyun_s\pool\yunStreamPool.cpp" />
+    <ClCompile Include="..\source\hyyun_s\thread\serverMemoryPoolThread.cpp" />
+    <ClCompile Include="..\source\hyyun_s\thread\serverWorkThread.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpConnectConsumer.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpConnectEvent.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpHeartBeat.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpHeartBeatThread.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\tcpMessageConsumer.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\yunConnection.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\yunServerTcp.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\yunServerTcp_p.cpp" />
+    <ClCompile Include="..\source\hyyun_s\tcp\yunTcpAgent.cpp" />
+    <ClCompile Include="..\source\hyyun_s\udp\udpMessageConsumer.cpp" />
+    <ClCompile Include="..\source\hyyun_s\udp\udpWriteConsumer.cpp" />
+    <ClCompile Include="..\source\hyyun_s\udp\yunServerUdp.cpp" />
+    <ClCompile Include="..\source\hyyun_s\udp\yunUdpAgent.cpp" />
+    <ClCompile Include="..\source\trace.cpp" />
+    <ClCompile Include="..\source\utils\yunStream.cpp" />
+    <ClCompile Include="..\source\utils\yunStreamAnalyser0.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
